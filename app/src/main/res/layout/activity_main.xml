@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    android:background="@drawable/bg_shp"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+
+        android:background="@drawable/background_shp"
+
+        >
+        <ImageView
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_black_24dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="WELCOME    "
+            android:gravity="center"
+            android:paddingRight="30dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/login_info_bg"
+        android:orientation="vertical"
+        style="@style/x">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:background="@drawable/custom"
+            android:text="sign in with google"
+            android:drawableLeft="@drawable/google"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/custom"
+            android:text="sign in with facebook"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/fb"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/custom"
+            android:text="sign in with email"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:textColor="#fff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an Account?  "
+                android:textColor="#fff" />
+
+
+            <Button
+                android:background="@drawable/login_btn_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log in"
+                android:layout_alignParentEnd="true"
+                android:height="2dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:padding="20dp"
+            android:text="By creating an account,you agree to our TERMS OF USE and PRIVACY POLICY"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
